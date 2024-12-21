@@ -1,0 +1,28 @@
+#Exile Config File
+
+#do not edit
+config-version: 1.5
+configFile: false
+
+#default messages
+forgive-message: "your exile has been forgiven"
+forgive-yourself-message: "your exile has ended"
+
+exile-message: "you have been exiled"
+exile-yourself-message: "you exiled yourself"
+
+#to keep inventory of someone exiled set this to false
+clear-inventory: true
+
+#to allow exiled people to escape the nether set this to true
+escape-nether: false
+
+#names of the worlds, if your world have different names change this, if they are the same do not edit
+nether-world: "world_nether"
+end-world: "world_the_end"
+
+#to save items of the exiled player in a chest placed where the player was
+save-items: true
+
+#message to confirm if a player has been exiled
+exile-feedback-message: ""

@@ -1,0 +1,21 @@
+name: Exile
+version: 1.5
+author: Great_Scott42
+main: me.GreatScott42.Exile
+api-version: 1.16
+commands:
+  exile:
+    description: exile someone or yourself
+    usage: /exile <player>
+    permission: Exile.exile
+  forgive:
+    description: forgive the exile
+    usage: /forgive <player>
+    permission: Exile.forgive
+permissions:
+  Exile.exile:
+    description: allows use exile command
+    default: op
+  Exile.forgive:
+    description: allows use forgive command
+    default: op
